@@ -1,0 +1,17 @@
+.formulario {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 30px auto;
+  gap: 8px;
+}
+
+.formulario input {
+  padding: 8px;
+}
+
+.formulario button {
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}

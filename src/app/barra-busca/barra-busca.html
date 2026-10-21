@@ -2,7 +2,8 @@
   <input
     type="text"
     placeholder="Buscar..."
-    [(ngModel)]="termo"
+    [ngModel]="termo"
+    (ngModelChange)="termo = $event; salvar()"
     name="termo"
   />
   <button (click)="buscar()">Buscar</button>
